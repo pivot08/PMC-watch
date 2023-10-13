@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<style>
+.watch6_parte2-mobile {
+  display: none;
+}
+
+.watch6_parte2{
+  display: block;
+}
+
+.watch6_parte2 .div1440 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.watch6_parte2 .div930 {
+  max-width: 930px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.watch6_parte2 .fitness img {
+  width: 100%;
+}
+
+.watch6_parte2 .div1440 .div930 .saude-tecnologia {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.watch6_parte2 .saude-tecnologia {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 7%;
+  align-items: stretch;
+}
+
+.watch6_parte2 .saude-tecnologia .saude{
+  width: 60%;
+}
+
+.watch6_parte2 .saude-tecnologia .saude img, .watch6_parte2 .saude-tecnologia .tecnologia img{
+  width: 100%;
+}
+
+.watch6_parte2 .saude-tecnologia .tecnologia{
+  width: 35%;
+}
+
+.watch6_parte2 p{
+    color: #000000;
+
+    font-family: SamsungOne;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2remm; /* 150% */
+
+    color: #000000;
+  }
+
+@media screen and (max-width: 640px) {
+  .watch6_parte2 {
+    display: none;
+  }
+
+  .watch6_parte2-mobile {
+    display: block;
+  }
+
+  .watch6_parte2-mobile .div640{
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .watch6_parte2-mobile .div350 {
+    max-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+
+  .watch6_parte2-mobile .saude-tecnologia {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    gap: 0.5rem;
+  }
+
+  .watch6_parte2-mobile .fitness img, .watch6_parte2-mobile .saude-tecnologia .saude img, .watch6_parte2-mobile .saude-tecnologia .tecnologia img{
+    width: 100%;
+  }
+
+  .watch6_parte2-mobile p{
+    color: var(--colors-text-text-black, #000);
+
+    /* Samsung/Mobile/Paragraph/paragraph-MD-400 */
+    font-family: SamsungOne;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .watch6_parte2-mobile .fitness img, .watch6_parte2-mobile .saude-tecnologia .saude img, .watch6_parte2-mobile .saude-tecnologia .tecnologia img{
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+<!-- desktop -->
+<div class="watch6_parte2">
+  <div class="div1440">
+    <div class="div930">
+      <div class="fitness">
+        <a href="#fitness-div"><img src="./watch6_parte2_image1_fitness-e-bem-estar.png"></a>
+      </div>
+      <div class="saude-tecnologia">
+        <div class="saude">
+          <a href="#saude-div"><img src="./watch6_parte2_image2_saude.png"></a>
+        </div>
+        <div class="tecnologia">
+          <a href="#tecnologia-div"><img src="./watch6_parte2_image3_tecnologia.png"></a>
+        </div>
+      </div>
+      <div class="div930">
+        <p>
+          O relógio inteligente que se conecta a você está de volta, agora com experiência de
+          saúde aprimorada e monitoramento de qualidade de sono atualizado. Seus dias
+          começam melhor com o Galaxy Watch6.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- mobile -->
+<div class="watch6_parte2-mobile">
+  <div class="div640">
+    <div class="div350">
+      <div class="fitness">
+          <a href="#fitness-div-mob"><img src="./watch6_parte2_image1_mob_fitness-e-bem-estar.png"></a>
+      </div>
+    </div>
+    <div class="div350">
+      <div class="saude-tecnologia">
+        <div class="saude">
+          <a href="#saude-div-mob"><img src="./watch6_parte2_image2_mob_saude.png" width="163"></a>
+        </div>
+        <div class="tecnologia">
+          <a href="#tecnologia-div-mob"><img src="./watch6_parte2_image3_mob_tecnologia.png" width=163></a>
+        </div>
+      </div>
+    </div>
+    <div class="div350">
+      <p>
+        O relógio inteligente que se conecta a você está de volta, agora com experiência de
+        saúde aprimorada e monitoramento de qualidade de sono atualizado. Seus dias
+        começam melhor com o Galaxy Watch6.
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
