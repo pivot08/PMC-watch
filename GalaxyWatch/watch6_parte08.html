@@ -1,0 +1,412 @@
+<!-- código samsung -->
+<style>
+  html {
+ scroll-behavior: smooth;
+}
+
+.wtb__headline {
+font-size: 2.5rem;
+text-align: center;
+max-width: 1440px;
+margin:auto;
+font-family: "SamsungSharpSans", Arial, sans-serif;
+padding-top: 32px;
+}
+
+.flex-container {
+display: flex;
+flex-wrap: wrap;
+padding: 10px 5px;
+max-width: 1440px;
+margin: auto;
+max-height:  777px;
+}
+
+.flex-container.center {
+justify-content: center;
+
+}
+
+.flex-container .flex-child {
+padding: 0 1%;
+width: 20%;
+height: 20%;
+}
+
+.bordered-button {
+width: 100%;
+margin: 12px auto;
+text-align: center;
+border-radius: 20px;
+}
+
+.no-bordered-button {
+width: 100%;
+margin: 12px auto;
+}
+
+.img-store {
+width: 78%;
+max-width: 250px;
+display: block;
+margin: 0 auto;
+padding: 10px;
+}
+
+.btn-ir-loja {
+  font-family: 'SamsungOne',arial,sans-serif;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  width: 133px;
+  margin: 0 auto 10px;
+  padding: 12px 12px;
+  border-radius: 36px;
+  font-weight: 900;
+}
+
+a .btn-ir-loja:hover {
+background: #555555;
+}
+
+.btn-ir-loja:hover {
+background: #1428a0;
+}
+
+.botaobn {
+  margin-bottom: 17px;
+}
+
+@media (max-width: 767px) {
+
+.flex-container .flex-child {
+  width: 50%;
+  margin: auto;
+}
+
+.botaobn {
+  width: 75%;
+  font-size: 2.6vw;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  
+}
+}
+
+@media (max-width:534px){
+  .botaobn{
+      font-size: 3.7vw;
+      width: 93%;
+  }
+}
+
+#compre-loja-samsung {
+margin-top : -30px
+}
+
+#slider-em-branco {
+display: none;
+}
+
+li.offers-product-card-grid__item-wrap.js-opl-product-card.is-show.is-fade {
+  margin: 0 auto;
+}
+
+
+#where-to-buy-div {
+  margin-top: -1px;
+max-width: 1440px;
+margin: auto
+}
+
+#where-to-buy {
+  background: #f7f7f7;
+}
+
+.bordered-button{
+background-color: white;
+}
+
+#text-laser, #text-experience, #text-margin {
+margin-top: -1px;
+}
+
+</style>
+
+<!-- secion -->
+<section id="where-to-buy" class="wtb">
+  <div id="where-to-buy-div">
+    <!-- título -->
+    <h2 class="wtb__headline">Compre onde preferir</h2>
+    <div class="ma-g-c-feature-general__content">
+      <!-- bloco -->
+      <div class="flex-container center">
+        <!-- bloco samsung -->
+        <div class="flex-child">
+          <div class="bordered-button" id="retailers">
+            <!-- imagem -->
+            <img
+                data-src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_samsung2.png"
+                class="img-store"
+                alt="ícone da loja Samsung"
+                msrc="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_samsung2.png"
+            />
+            <!-- botão -->
+            <a class="cta cta--contained cta--black cta--icon botaobn"
+              href=""
+              target="_blanq"
+              data-omni-type="microsite" data-omni="br:campaign:SEDA:launch-oled:home:gotoretailer:retailer-samsung">
+              Comprar agora
+              <svg class="icon" focusable="false" aria-hidden="true"><use xlink:href="#outlink-bold" href="#outlink-bold"></use></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- bloco kabum -->
+        <div class="flex-child">
+          <div class="bordered-button" id="retailers">
+            <!-- imagem -->
+            <img
+              data-src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_kabum2.png"
+              class="img-store"
+              alt="ícone da loja Kabum"
+              src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_kabum2.png"
+            />
+            <!-- botão -->
+            <a class="cta cta--contained cta--black cta--icon botaobn"
+              href=""
+              target="_blank" data-omni-type="microsite" data-omni="br:campaign:SEDA:launch-oled:home:gotoretailer:retailer-kabum">
+              Comprar agora
+              <svg class="icon" focusable="false" aria-hidden="true"><use xlink:href="#outlink-bold" href="#outlink-bold"></use></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- bloco amazon -->
+        <div class="flex-child">
+          <div class="bordered-button" id="retailers">
+            <!-- imagem -->
+            <img
+              data-src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_amazon2.png"
+              class="img-store lazy"
+              alt="ícone da loja Amazon"
+              src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_amazon2.png"
+            />
+            <!-- botão -->
+            <a class="cta cta--contained cta--black cta--icon botaobn"
+              href=""
+              target="_blank" data-omni-type="microsite" data-omni="br:campaign:SEDA:launch-oled:home:gotoretailer:retailer-amazon">
+              Comprar agora
+              <svg class="icon" focusable="false" aria-hidden="true"><use xlink:href="#outlink-bold" href="#outlink-bold"></use></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- bloco fastshop -->
+        <div class="flex-child">
+          <div class="bordered-button" id="retailers">
+            <!-- imagem -->
+            <img
+              data-src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_fastshop2.png"
+              class="img-store"
+              alt="ícone da loja Fast Shop"
+              src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_fastshop2.png"
+            />
+            <!-- botão -->
+            <a class="cta cta--contained cta--black cta--icon botaobn"
+              href=""
+              target="_blank" data-omni-type="microsite" data-omni="br:campaign:SEDA:launch-oled:home:gotoretailer:retailer-fastshop">
+              Comprar agora
+              <svg class="icon" focusable="false" aria-hidden="true"><use xlink:href="#outlink-bold" href="#outlink-bold"></use></svg></a>
+          </div>
+        </div>
+
+        <!-- bloco carrefour -->
+        <div class="flex-child">
+          <div class="bordered-button" id="retailers">
+            <!-- imagem -->
+            <img
+              data-src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_carrefour2.png"
+              class="img-store"
+              alt="ícone da loja Carrefour"
+              src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_carrefour2.png"
+            />
+            <!-- botão -->
+            <a class="cta cta--contained cta--black cta--icon botaobn"
+              href=""
+              target="_blank" data-omni-type="microsite" data-omni="br:campaign:SEDA:launch-oled:home:gotoretailer:retailer-carrefour">
+              Comprar agora
+              <svg class="icon" focusable="false" aria-hidden="true"><use xlink:href="#outlink-bold" href="#outlink-bold"></use></svg></a>
+          </div>
+        </div>
+
+        <!-- bloco casas bahia -->
+        <div class="flex-child">
+          <div class="bordered-button" id="retailers">
+            <img
+              data-src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_casasbahia2.png"
+              class="img-store"
+              alt="ícone da loja Casas Bahia"
+              src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_casasbahia2.png"
+            />
+            <a class="cta cta--contained cta--black cta--icon botaobn"
+              href=""
+              target="_blank" data-omni-type="microsite" data-omni="br:campaign:SEDA:launch-oled:home:gotoretailer:retailer-casasbahia">
+              Comprar agora
+              <svg class="icon" focusable="false" aria-hidden="true"><use xlink:href="#outlink-bold" href="#outlink-bold"></use></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- bloco magalu -->
+        <div class="flex-child">
+          <div class="bordered-button" id="retailers">
+            <img
+              data-src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_magalu2.png"
+              class="img-store"
+              alt="ícone da loja Magalu"
+              src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_magalu2.png"
+            />
+            <a class="cta cta--contained cta--black cta--icon botaobn"
+              href=""
+              target="_blank" data-omni-type="microsite" data-omni="br:campaign:SEDA:launch-oled:home:gotoretailer:retailer-magalu">
+              Comprar agora
+              <svg class="icon" focusable="false" aria-hidden="true"><use xlink:href="#outlink-bold" href="#outlink-bold"></use></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- bloco angeloni -->
+        <div class="flex-child">
+          <div class="bordered-button" id="retailers">
+            <img
+              data-src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_angeloni2.png"
+              class="img-store"
+              alt="ícone da loja Angeloni"
+              src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_angeloni2.png"
+            />
+            <a class="cta cta--contained cta--black cta--icon botaobn"
+              href=""
+              target="_blank" data-omni-type="microsite" data-omni="br:campaign:SEDA:launch-oled:home:gotoretailer:retailer-angeloni">
+              Comprar agora
+              <svg class="icon" focusable="false" aria-hidden="true"><use xlink:href="#outlink-bold" href="#outlink-bold"></use></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- bloco fujioka -->
+        <div class="flex-child">
+          <div class="bordered-button" id="retailers">
+            <img
+            data-src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_fujioka2.png"
+              class="img-store"
+              alt="ícone da loja Fujioka"
+              src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_fujioka2.png"
+            />
+            <a class="cta cta--contained cta--black cta--icon botaobn"
+              href=""
+              target="_blank" data-omni-type="microsite" data-omni="br:campaign:SEDA:launch-oled:home:gotoretailer:retailer-fujioka">
+              Comprar agora
+              <svg class="icon" focusable="false" aria-hidden="true"><use xlink:href="#outlink-bold" href="#outlink-bold"></use></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- bloco nagem -->
+        <div class="flex-child">
+          <div class="bordered-button" id="retailers">
+            <img
+            data-src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_nagem2.png"
+              class="img-store"
+              alt="ícone da loja Nagem"
+              src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_nagem2.png"
+            />
+            <a class="cta cta--contained cta--black cta--icon botaobn"
+              href=""
+              target="_blank" data-omni-type="microsite" data-omni="br:campaign:SEDA:launch-oled:home:gotoretailer:retailer-nagem">
+              Comprar agora
+              <svg class="icon" focusable="false" aria-hidden="true"><use xlink:href="#outlink-bold" href="#outlink-bold"></use></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- bloco ponto -->
+        <div class="flex-child">
+          <div class="bordered-button" id="retailers">
+            <img
+            data-src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_ponto2.png"
+              class="img-store"
+              alt="ícone da loja Ponto"
+              src="/content/dam/samsung/galaxywatch/GalaxyWatch_logo_ponto2.png"
+            />
+            <a class="cta cta--contained cta--black cta--icon botaobn"
+              href=""
+              target="_blank" data-omni-type="microsite" data-omni="br:campaign:SEDA:launch-oled:home:gotoretailer:retailer-ponto">
+              Comprar agora
+              <svg class="icon" focusable="false" aria-hidden="true"><use xlink:href="#outlink-bold" href="#outlink-bold"></use></svg>
+            </a>
+          </div>
+        </div>      
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+  var lazyloadImages;    
+  
+  if ("IntersectionObserver" in window) {
+    lazyloadImages = document.querySelectorAll(".lazy");
+    var imageObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          var image = entry.target;
+          image.src = image.dataset.src;
+          image.classList.remove("lazy");
+          imageObserver.unobserve(image);
+        }
+      });
+    });
+  
+    lazyloadImages.forEach(function(image) {
+      imageObserver.observe(image);
+    });
+  } else {  
+    var lazyloadThrottleTimeout;
+    lazyloadImages = document.querySelectorAll(".lazy");
+    
+    function lazyload () {
+      if(lazyloadThrottleTimeout) {
+        clearTimeout(lazyloadThrottleTimeout);
+      }    
+  
+      lazyloadThrottleTimeout = setTimeout(function() {
+        var scrollTop = window.pageYOffset;
+        lazyloadImages.forEach(function(img) {
+            if(img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+        });
+        if(lazyloadImages.length == 0) { 
+          document.removeEventListener("scroll", lazyload);
+          window.removeEventListener("resize", lazyload);
+          window.removeEventListener("orientationChange", lazyload);
+        }
+      }, 20);
+    }
+  
+    document.addEventListener("scroll", lazyload);
+    window.addEventListener("resize", lazyload);
+    window.addEventListener("orientationChange", lazyload);
+  }
+  })
+</script>
+
+<!-- 
+/content/dam/samsung/galaxywatch/
+./images/
+-->

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<style>
+.galaxy-watch_part4-mobile {
+  display: none;
+}
+
+.galaxy-watch_part4-desktop {
+  display: block;
+}
+
+.galaxy-watch_part4-desktop .div1406 {
+    max-width: 1406px;
+    margin: 0 auto;
+}
+
+.galaxy-watch_part4-desktop .titulo-saude {
+  margin-bottom: 40px;
+}
+
+.galaxy-watch_part4-desktop .saude-div-image-text {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.galaxy-watch_part4-desktop .saude-div-image {
+  width: 57%;
+}
+
+.galaxy-watch_part4-desktop .saude-div-image img{
+  border-radius: 25px;
+  width: 100%;
+}
+
+.galaxy-watch_part4-desktop .saude-div-text {
+  width: 40%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.galaxy-watch_part4-desktop .saude-div-text-gray {
+  background-color: #f5f5f5;
+  border-radius: 25px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 573px;
+}
+
+.galaxy-watch_part4-desktop .saude-div-text-gray.bloco-1 {
+  height: 40%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.galaxy-watch_part4-desktop .saude-div-text-gray.bloco-1 img{
+  width:8%;
+}
+
+.galaxy-watch_part4-desktop .saude-div-text-gray.bloco-2 img {
+  width:8%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.galaxy-watch_part4-desktop .saude-div-text-gray.bloco-2 {
+  height: 32%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.galaxy-watch_part4-desktop .saude-div-text-gray p {
+  margin: 16px auto 0;
+  width: 74%;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 640px) {
+  .galaxy-watch_part4-desktop {
+    display: none;
+  }
+
+  .galaxy-watch_part4-mobile {
+    display: block;
+  }
+
+  .galaxy-watch_part4-mobile .titulo-saude {
+    margin-left: 25px;
+    max-width: 70%;
+    margin-bottom: 25px;
+  }
+
+  .galaxy-watch_part4-mobile .saude-div-image img {
+    margin: 0;
+    width: 100%;
+  }
+
+  .galaxy-watch_part4-mobile .saude-div-text-white p {
+    width: 90%;
+    margin: 5% auto;
+  }
+
+  .galaxy-watch_part4-mobile .saude-div-text-gray {
+    margin: 5% auto;
+    width: 90% !important;
+    background-color: #f5f5f5;
+    border-radius: 25px;
+    text-align: center;
+    padding: 25px 0;
+  }
+
+  .galaxy-watch_part4-mobile .saude-div-text-gray p {
+    width: 80% !important;
+    text-align: center;
+    margin: 5px auto;
+  }
+
+
+}
+
+
+</style>
+</head>
+<body>
+<!-- desktop -->
+<div class="galaxy-watch_part4-desktop" id="saude-div">
+  <div class="div1406">
+    <!-- título -->
+    <div class="textblock    bg-white  text-left  text-mo-left titulo-saude">
+      <div class="textblock__body padding-top--48 padding-bottom--48" style="padding: 0">
+        <h2 class="textblock__title" data-font-size-pc="38" data-font-size-mo="26">Sua saúde em primeiro lugar</h2>
+      </div>
+    </div>
+    <!-- imagem + texto + blocos -->
+    <div class="saude-div-image-text">
+      <!-- imagem -->
+      <div class="saude-div-image">
+        <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_img07.png">
+      </div>
+      <!-- texto + blocos -->
+      <div class="saude-div-text">
+        <!-- texto -->
+        <div class="saude-div-text-white">
+          <p class="textblock__desc" data-font-size-pc="18" data-font-size-mo="14">A ferramenta ideal para monitorar sua saúde e ficar sempre informado sobre qualquer alteração:</p>
+        </div>
+        <!-- blocos -->
+        <!-- bloco 1 -->
+        <div class="saude-div-text-gray bloco-1">
+          <!-- icones -->
+          <div class="bloco-svg">
+            <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_img07_icon01a.svg">
+            <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_img07_icon01b.svg">
+            <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_img07_icon01c.svg">
+          </div>          
+          <!-- texto -->
+          <p class="textblock__desc" data-font-size-pc="18" data-font-size-mo="14">Monitore seu coração 24 horas por dia com Eletrocardiograma (ECG), monitoramento da frequência cardíaca, pressão sanguínea e níveis de oxigênio no sangue¹</p>                           
+        </div>
+        <!-- bloco 2 -->
+        <div class="saude-div-text-gray bloco-2">
+          <!-- icone -->
+          <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_img07_icon02.svg"> 
+          <!-- texto -->                        
+          <p class="textblock__desc" data-font-size-pc="18" data-font-size-mo="14">Acompanhe a qualidade do seu sono com o monitoramento de sono personalizado²</p>
+        </div>                  
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- mobile -->
+<div class="galaxy-watch_part4-mobile" id="saude-div-mob">
+  <div class="div640">
+    <!-- título -->
+    <div class="textblock    bg-white  text-left  text-mo-left titulo-saude">
+      <div class="textblock__body padding-top--48 padding-bottom--48" style="padding: 0">
+        <h2 class="textblock__title" data-font-size-pc="38" data-font-size-mo="26">Sua saúde em primeiro lugar</h2>
+      </div>
+    </div>
+    <!-- imagem -->
+    <div class="saude-div-image">
+      <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_img07_mo.png">
+    </div>
+    <!-- texto  -->
+    <div class="saude-div-text-white">
+      <p class="textblock__desc" data-font-size-pc="18" data-font-size-mo="14">A ferramenta ideal para monitorar sua saúde e ficar sempre informado sobre qualquer alteração:</p>
+    </div>
+    <!-- blocos -->
+    <!-- bloco 1 -->
+    <div class="saude-div-text-gray bloco-1">
+      <!-- icones -->
+      <div class="bloco-svg">
+        <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_img07_icon01a.svg">
+        <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_img07_icon01b.svg">
+        <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_img07_icon01c.svg">
+      </div>          
+      <!-- texto -->
+      <p class="textblock__desc" data-font-size-pc="18" data-font-size-mo="14">Monitore seu coração 24 horas por dia com Eletrocardiograma (ECG), monitoramento da frequência cardíaca, pressão sanguínea e níveis de oxigênio no sangue¹</p>                           
+    </div>
+    <!-- bloco 2 -->
+    <div class="saude-div-text-gray bloco-2">
+      <!-- icone -->
+      <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_img07_icon02.svg"> 
+      <!-- texto -->                        
+      <p class="textblock__desc" data-font-size-pc="18" data-font-size-mo="14">Acompanhe a qualidade do seu sono com o monitoramento de sono personalizado²</p>
+    </div>                
+  </div>
+</div>
+<!-- 
+/content/dam/samsung/galaxywatch/
+./images/
+-->
+</body>
+</html>

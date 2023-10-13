@@ -1,0 +1,44 @@
+<div class="tab-container">
+  <ul class="tabs">
+    <li class="tab-link active" data-tab="tab1">
+
+
+    </li>
+    <li class="tab-link" data-tab="tab2">
+      
+    </li>
+  </ul>
+  <div id="tab1" class="tab-content active">
+    Conteúdo da Aba 1
+  </div>
+  <div id="tab2" class="tab-content">
+    Conteúdo da Aba 2
+  </div>
+</div>
+
+
+
+
+<script>
+$(document).ready(function() {
+  // Quando uma aba for clicada
+  $(".tab-link").click(function() {
+    // Desativa a aba ativa atual
+    $(".tab-link").removeClass("active");
+    $(".tab-content").removeClass("active");
+    // Ativa a aba clicada
+    var tabId = $(this).attr("data-tab");
+    $(this).addClass("active");
+    $("#" + tabId).addClass("active");
+  });
+});
+</script>
+
+<style>
+.tab-content {
+  display: none;
+}
+.tab-content.active {
+  display: block;
+}
+</style>
