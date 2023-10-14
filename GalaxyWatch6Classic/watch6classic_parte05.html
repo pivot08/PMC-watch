@@ -1,0 +1,348 @@
+<style>
+  .galaxy-watch_part7 {
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  
+  .galaxy-watch6_classic .tab-container {
+    text-align: center;
+  }
+  
+  .galaxy-watch6_classic .tabs {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 183px;
+    height: 35px;
+    border-radius: 25px;
+    background-color:#F0EAE0;
+    color:#6B6B6B;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .galaxy-watch6_classic .tabs li:active{
+    background-color:#ffffff;
+    width: 91px;
+    border-radius: 25px;
+    height: 33px;
+  }
+  
+  .galaxy-watch6_classic .tabs-color {
+    margin: 18px auto 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 54px;
+    height: 25px;
+  }
+  
+  .galaxy-watch6_classic .tabs-color li:active{
+    border-color: #0C71E5;
+  }
+  
+  .galaxy-watch6_classic .div-texto-selecao-cor {
+    margin-bottom: 35px;
+  }
+  
+  
+  .tab-menu, .tab-menu2 {
+      padding: 0;
+      background: #EEEEEE;
+      border-radius: 30px;
+      padding: 4px;
+      text-align: center;
+      max-width: fit-content;
+      margin: auto;
+  }
+  
+  
+  .tab-menu .active, .tab-menu2 .active {
+      background: #fff;
+  }
+  
+  ul.tab-menu li, ul.tab-menu2 li {
+      display: inline-block;
+      padding: 8px;
+      border-radius: 25px;
+      min-width: 91px;
+      font-size: 14px;
+      color: #000;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .galaxy-watch_part5-desktop {
+      display: none;
+    }
+  
+    .galaxy-watch_part5-mobile {
+      display: block;
+    }
+  
+    .galaxy-watch_part5-mobile .titulo-saude {
+      margin-left: 5%;
+      max-width: 70%;
+      margin-bottom: 5%;
+    }
+  
+    .galaxy-watch_part5-mobile .fitness-div-image img {
+      margin: 0;
+      width: 100%;
+    }
+  
+    .galaxy-watch_part5-mobile .fitness-div-text-white p {
+      width: 90%;
+      margin: 5% auto;
+    }
+  
+    .galaxy-watch_part5-mobile .fitness-div-text-gray {
+      margin: 5% auto;
+      width: 90%;
+      background-color: #f5f5f5;
+      border-radius: 25px;
+      text-align: center;
+      padding: 5% 10%;
+    }
+  
+  }
+  
+  .galaxy-watch_part7 .textblock__subtitle {
+      font-size: 22px;
+      font-family: 'SamsungSharpSans',arial,sans-serif;
+      margin-top: 30px;
+      margin-bottom: 31px;
+      min-height: 60px;
+  }
+  
+  ul.tab-menu2 a, ul.tab-menu a {
+      color: #6B6B6B;
+      font-weight: normal;
+      font-family: 'SamsungOne';
+  }
+  
+  .cores .preto {
+      width: 22px;
+      height: 22px;
+      background: #404145;
+      border-radius: 30px;
+      border:solid 1px #fff;
+      margin:5px;
+  }
+  
+  .cores .active {outline:2px solid #0C71E5;}
+  .cores .cinza {
+      width: 22px;
+      height: 22px;
+      background: #c7c8ca;
+      border-radius: 30px;
+      border:solid 1px #fff;
+      margin:5px;
+  }
+  .cores {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      padding:10px;
+  }
+  .cores label {
+      position: absolute;
+      margin-top: 55px;
+  }
+  .div-material, .div-tamanho, .div-peso {
+      text-align: left;
+      margin-top: 50px;
+      line-height: 50px;
+  }
+  
+  .cores label {
+      position: absolute;
+      margin-top: 70px;
+      font-size: 14px;
+      font-weight: 200;
+  }
+  .textblock__subtitle, .textblock__desc, .textblock__disclaimer {
+      line-height: 26px;
+  }
+  
+  .tab-content h4 {
+      font-size: 18px;
+      background: none;
+      font-weight: 100;
+      margin: 0px;
+  }
+  
+  .tab-content h5 {
+      margin: 0px;
+      font-weight: 100;
+      font-size: 15px;
+      line-height: 0px;
+  }
+  
+  </style>
+  
+  
+  <div class="galaxy-watch_part7">
+    <!-- Galaxy Watch6 Classic-->
+    <div class="galaxy-watch6_classic">
+      <div class="tab-container">
+      <!-- imagem -->
+        <div class="image-watch">
+          <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_Img10.png">
+        </div>
+        <!-- Título -->
+        <div>
+          <h3 class="textblock__subtitle" data-font-size-pc="28" data-font-size-mo="18">Galaxy Watch6<br/> Classic</h3>
+        </div>
+  
+  
+        <ul class="tab-menu">
+          <li><a href="#tab-1">47MM</a></li>
+          <li><a href="#tab-2">43MM</a></li>
+          
+        </ul>
+        <div id="tab-1" class="tab-content">
+          <div class="cores">
+            <div id="classic-47-black" class="preto active"></div>
+            <div id="classic-47-grey" class="cinza"></div>
+            <label>Preto</label>
+          </div>
+  
+          <!-- material -->
+          <div class="div-material">
+            <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_img10-11_icon01.svg">
+            <h4>Material</h4> 
+            <h5 class="textblock__desc">Armor Aluminum</h5> 
+          </div>
+          <!-- tamanho-->
+          <div class="div-tamanho">
+            <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_img10-11_icon02.svg">
+            <h4>Tamanho</h4> 
+            <h5>44mm</h5>  
+          </div>
+          <!-- peso -->
+          <div class="div-peso">
+            <h4>Peso</h4> 
+            <h5>33.3g</h5>  
+          </div>
+        </div>
+        <div id="tab-2" class="tab-content">
+          <div class="cores">
+            <div id="classic-43-black" class="preto active"></div>
+            <div id="classic-43-grey" class="cinza"></div>
+            <label>Preto</label>
+          </div>
+          <!-- material -->
+          <div class="div-material">
+            <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_img10-11_icon01.svg">
+            <p class="textblock__desc" data-font-size-pc="18" data-font-size-mo="14">Armor Aluminum</p> 
+          </div>
+          <!-- tamanho-->
+          <div class="div-tamanho">
+            <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_img10-11_icon02.svg">
+            <p class="textblock__desc" data-font-size-pc="18" data-font-size-mo="14">Tamanho</p> 
+            <p class="textblock__desc" data-font-size-pc="16" data-font-size-mo="12">44mm</p>  
+          </div>
+          <!-- peso -->
+          <div class="div-peso">
+            <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_img10-11_icon01.svg">
+            <p class="textblock__desc" data-font-size-pc="18" data-font-size-mo="14">Peso</p> 
+            <p class="textblock__desc" data-font-size-pc="16" data-font-size-mo="12">33.3g</p>  
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  
+    <!-- Galaxy Watch6-->
+    <div class="galaxy-watch6">
+      <div class="tab-container">
+        <!-- imagem -->
+        <div>
+          <img src="/content/dam/samsung/galaxywatch/GalaxyWatch_Img11.png">
+        </div>
+        <!-- Título -->
+        <div>
+          <h3 class="textblock__subtitle" data-font-size-pc="28" data-font-size-mo="18">Galaxy Watch6</h3>
+        </div>
+        
+        <ul class="tab-menu2">
+          <li><a href="#tab2-1">44MM</a></li>
+          <li><a href="#tab2-2">40MM</a></li>
+          
+        </ul>
+        <div id="tab2-1" class="tab-content2">conteudo 44</div>
+        <div id="tab2-2" class="tab-content2">conteudo 40</div>
+        
+        
+      </div>
+    </div>
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+          $('.tab-content').slice(1).hide();
+          $('.tab-menu li').eq(0).addClass('active');
+          $('.tab-menu li a').click(function(e) {
+              e.preventDefault();
+              var content = $(this).attr('href');
+              $(this).parent().addClass('active');
+              $(this).parent().siblings().removeClass('active');
+              $(content).show();
+              $(content).siblings('.tab-content').hide();
+          });
+      });
+      $(document).ready(function() {
+          $('.tab-content2').slice(1).hide();
+          $('.tab-menu2 li').eq(0).addClass('active');
+          $('.tab-menu2 li a').click(function(e) {
+              e.preventDefault();
+              var content = $(this).attr('href');
+              $(this).parent().addClass('active');
+              $(this).parent().siblings().removeClass('active');
+              $(content).show();
+              $(content).siblings('.tab-content2').hide();
+          });
+      });
+  
+      $(document).ready(function() {
+    // Evento de clique para as divs de cores
+    $(".cores div").click(function() {
+      // Remove a classe "active" de todas as divs de cores
+      $(".cores div").removeClass("active");
+      
+      // Adiciona a classe "active" à div de cor clicada
+      $(this).addClass("active");
+      
+      // Obtém o ID da div de cor clicada
+      var colorId = $(this).attr("id");
+  
+      // Atualiza a imagem na classe .image-watch img com base no ID da cor
+      if (colorId === "classic-47-black") {
+        $(".image-watch img").attr("src", "/content/dam/samsung/galaxywatch/GalaxyWatch_47-black.png");
+      } else if (colorId === "classic-47-grey") {
+        $(".image-watch img").attr("src", "/content/dam/samsung/galaxywatch/GalaxyWatch_47-grey.png");
+      } else if (colorId === "classic-43-black") {
+        $(".image-watch img").attr("src", "/content/dam/samsung/galaxywatch/GalaxyWatch_47-black.png");
+      } else if (colorId === "classic-43-grey") {
+        $(".image-watch img").attr("src", "/content/dam/samsung/galaxywatch/GalaxyWatch_47-grey.png");
+      }
+    });
+  });
+    </script>
+  
+  
+  <!-- 
+  /content/dam/samsung/galaxywatch/
+  ./images/
+  -->
+  
