@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<style>
+.galaxy-watch_space-mobile {
+  display: none;
+}
+
+.galaxy-watch_space-desktop  {
+  display: block;
+  background-color: #000;
+}
+
+.galaxy-watch_space-desktop .div-space {
+  height: 60px;
+}
+
+@media screen and (max-width: 640px) {
+  .galaxy-watch_space-desktop {
+    display: none;
+  }
+
+  .galaxy-watch_space-mobile {
+    display: block;
+    background-color: #000;
+  }
+
+  .galaxy-watch_space-mobile .div-space {
+    height: 40px;
+  }
+}
+
+</style>
+</head>
+<body>
+<!-- desktop -->
+<div class="galaxy-watch_space-desktop">
+  <div class="div-space"></div>
+</div>
+
+<!-- mobile -->
+<div class="galaxy-watch_space-mobile">
+  <div class="div-space"></div>
+</div>
+
+
+<!-- 
+/content/dam/samsung/galaxywatch/galaxywatch6classic/
+./images/
+-->
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<style>
+.galaxy-watch_part3-mobile {
+  display: none;
+}
+
+.galaxy-watch_part3-desktop{
+  display: block;
+}
+
+.galaxy-watch_part3-desktop .div1440 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.galaxy-watch_part3-desktop .div930 {
+  max-width: 930px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.galaxy-watch_part3-desktop .fitness img {
+  width: 100%;
+}
+
+.galaxy-watch_part3-desktop .div1440 .div930 .saude-tecnologia {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.galaxy-watch_part3-desktop .saude-tecnologia {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 7%;
+  align-items: stretch;
+}
+
+.galaxy-watch_part3-desktop .saude-tecnologia .saude{
+  width: 60%;
+}
+
+.galaxy-watch_part3-desktop .saude-tecnologia .saude img, .galaxy-watch_part3-desktop .saude-tecnologia .tecnologia img{
+  width: 100%;
+}
+
+.galaxy-watch_part3-desktop .saude-tecnologia .tecnologia{
+  width: 35%;
+}
+
+
+@media screen and (max-width: 640px) {
+  .galaxy-watch_part3-desktop {
+    display: none;
+  }
+
+  .galaxy-watch_part3-mobile {
+    display: block;
+  }
+
+  .galaxy-watch_part3-mobile .div640{
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .galaxy-watch_part3-mobile .div350 {
+    max-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+
+  .galaxy-watch_part3-mobile .saude-tecnologia {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+  }
+
+  .galaxy-watch_part3-mobile .fitness img,  .galaxy-watch_part3-mobile .saude-tecnologia .saude img, .galaxy-watch_part3-mobile .saude-tecnologia .tecnologia img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .galaxy-watch_part3-mobile .fitness img,  .galaxy-watch_part3-mobile .saude-tecnologia .saude img, .galaxy-watch_part3-mobile .saude-tecnologia .tecnologia img {
+    width: 95%;
+  }
+}
+
+</style>
+</head>
+<body>
+<!-- desktop -->
+<div class="galaxy-watch_part3-desktop">
+  <div class="div1440">
+    <div class="div930">
+      <div class="fitness">
+        <a href="#fitness-div"><img src="/content/dam/samsung/galaxywatch/galaxywatch6/GalaxyWatch_img02.png"></a>
+      </div>
+      <div class="saude-tecnologia">
+        <div class="saude">
+          <a href="#saude-div"><img src="/content/dam/samsung/galaxywatch/galaxywatch6/GalaxyWatch_img03.png"></a>
+        </div>
+        <div class="tecnologia">
+          <a href="#tecnologia-div"><img src="/content/dam/samsung/galaxywatch/galaxywatch6/GalaxyWatch_img04.png"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- mobile -->
+<!-- desktop -->
+<div class="galaxy-watch_part3-mobile">
+  <div class="div640">
+    <div class="div350">
+      <div class="fitness">
+          <a href="#fitness-div-mob"><img src="/content/dam/samsung/galaxywatch/galaxywatch6/GalaxyWatch_img02_mo.png"></a>
+      </div>
+      <div class="saude-tecnologia">
+        <div class="saude">
+          <a href="#saude-div-mob"><img src="/content/dam/samsung/galaxywatch/galaxywatch6/GalaxyWatch_img03_mo.png"></a>
+        </div>
+        <div class="tecnologia">
+          <a href="#tecnologia-div-mob"><img src="/content/dam/samsung/galaxywatch/galaxywatch6/GalaxyWatch_img04_mo.png"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 
+/content/dam/samsung/galaxywatch/galaxywatch6classic/
+./images/
+-->
+</body>
+</html>
